@@ -7,17 +7,20 @@ def list_append(list_a,list_b,flag="2d"):
     if list_b:
         if flag=="2d":
             if len(list_b)!=0:
-                if isinstance(list_b[0],int) or isinstance(list_b[0],str) :
-                    for i in range(len(list_a)):
-                        list_a[i].append(list_b[i])
-                else:
-                    for i in range(len(list_a)):
-                        for j in range(len(list_b[0])):
-                            list_a[i].append(list_b[i][j])      
+                list_a[0]=list_a[0]+list_b[0]
+                list_a[0]=list_a[0]+list_b[0] 
         if flag=="1d":
-            if isinstance(list_b,list):
-                for i in list_b:
-                    list_a.append(i)
-            else:
-                list_a.append(list_b)
+            if list_a:
+                list_a=list_a+list_b if isinstance(list_b,list) else list_a+[list_b]         
     return list_a
+
+
+def join(origin_list,join_list,field):
+    new=[]
+    for item in origin_list:
+        temp=item
+        if join_list.get(item[1]) and join_list.get(item[1])[0]:
+            temp[2]=join_list.get(item[1])[0]
+            i=i+1
+        new.append(temp)
+    return new
