@@ -1,0 +1,40 @@
+update public.sports
+SET tag_ids[1]=4050000 where tag_names[1]='专卖店';
+update public.sports 
+SET tag_ids[2]=4050000 where tag_names[2]='专卖店';
+update public.sports
+SET tag_ids[3]=4050000 where tag_names[3]='专卖店';
+update public.sports
+SET tag_ids[4]=4050000 where tag_names[4]='专卖店';
+update public.sports
+SET tag_ids[5]=4050000 where  tag_names[5]='专卖店';
+UPDATE public.sports
+SET tag_ids[1]=4040001 WHERE tag_names[1] = '灯具瓷器';
+UPDATE public.sports
+SET tag_ids[2]=4040001 WHERE tag_names[2] = '灯具瓷器';
+UPDATE public.sports
+SET tag_ids[3]=4040001 WHERE tag_names[3] = '灯具瓷器';
+UPDATE public.sports
+SET tag_ids[4]=4040001 WHERE tag_names[4] = '灯具瓷器';
+UPDATE public.sports
+SET tag_ids[1]=4040002 WHERE tag_names[1] = '家居建材综合';
+UPDATE public.sports
+SET tag_ids[2]=4040002 WHERE tag_names[2] = '家居建材综合';
+UPDATE public.sports
+SET tag_ids[3]=4040002 WHERE tag_names[3] = '家居建材综合';
+UPDATE public.sports
+SET tag_ids[4]=4040002 WHERE tag_names[4] = '家居建材综合';
+UPDATE public.sports
+SET tag_ids[1]=4040003 WHERE tag_names[1] = '建材用品';
+UPDATE public.sports
+SET tag_ids[1]=4010002 WHERE tag_names[1] = '家居用品';
+UPDATE public.sports
+SET tag_ids[2]=4010002 WHERE tag_names[2] = '家居用品';
+UPDATE public.sports
+SET tag_ids[3]=4010002 WHERE tag_names[3] = '家居用品';
+UPDATE public.sports
+SET tag_ids[1]=4010003 WHERE tag_names[1] = '纺织用品';
+UPDATE public.sports
+SET tag_ids[2]=4010003 WHERE tag_names[2] = '纺织用品';
+UPDATE public.sports
+SET tag_ids[3]=4010003 WHERE tag_names[3] = '纺织用品';

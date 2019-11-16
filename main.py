@@ -13,6 +13,7 @@ if __name__ == "__main__":
     i=0
     for item in b:
         temp=item
+        temp[0]=str(temp[0]).strip(".0")
         if a.get(item[1]) and a.get(item[1])[0]:
             temp[2]=a.get(item[1])[0]
             i=i+1
