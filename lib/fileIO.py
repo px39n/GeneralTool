@@ -1,8 +1,11 @@
 import sys
+
 import csv
 import platform
 import pandas as pd
 import os
+
+sys.path.append('..')
 #item="asdf.csv"
 #print(os.path.splitext(item)[0]) 去除后缀
 

@@ -1,3 +1,5 @@
+#人工去重
+
 import math
 import pandas as pd
 EARTH_REDIUS = 6378.137
