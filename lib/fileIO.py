@@ -8,6 +8,10 @@ import os
 sys.path.append('..')
 #item="asdf.csv"
 #print(os.path.splitext(item)[0]) 去除后缀
+url="File\word.csv"
+#读取txt
+a=pd.read_csv(url,",",header=None).values.tolist
+pd.DataFrame(data).to_csv(url,index=False,header=False,encoding="utf_8_sig")
 
 def write_csv(url, data,encoding="utf_8"):
     data=pd.DataFrame(data)

@@ -1,3 +1,11 @@
+#删除a.remove("abc") del a[1]
+'''排序
+a = [[1,2],[3,5],[1,0],[4,7],[5,7]]
+a.sort(key=lambda x : x[1]+x[0])
+print(a)
+'''
+
+
 def list_append(list_a,list_b,flag="2d"):
     '''
     将一个二维数组b追加到另一一个二维数组a
