@@ -8,6 +8,8 @@ print(a)
  tag_name=list(set(tag_list[0]))
  '''
 
+ #打散    split()----"|".join(row[1]) 
+
 
 def list_append(list_a,list_b,flag="2d"):
     '''
