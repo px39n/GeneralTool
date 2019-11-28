@@ -10,7 +10,10 @@ sys.path.append('..')
 #print(os.path.splitext(item)[0]) 去除后缀
 url="File\word.csv"
 #读取txt
-a=pd.read_csv(url,",",header=None).values.tolist
+a=pd.read_csv(url,",",dtype=object,header=None).values.tolist()  #无标题
+gd_data=pd.read_csv(url,",",dtype=object,header=0,usecols=[5,4],names=["tag","wayz"])    #有标题
+
+#写入txt
 pd.DataFrame(data).to_csv(url,index=False,header=False,encoding="utf_8_sig")
 
 def write_csv(url, data,encoding="utf_8"):

@@ -4,6 +4,9 @@ a = [[1,2],[3,5],[1,0],[4,7],[5,7]]
 a.sort(key=lambda x : x[1]+x[0])
 print(a)
 '''
+'''去重
+ tag_name=list(set(tag_list[0]))
+ '''
 
 
 def list_append(list_a,list_b,flag="2d"):
