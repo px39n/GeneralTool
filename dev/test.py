@@ -1,7 +1,7 @@
 import pandas as pd
 
 tag="config/test1.csv"
-all="config/test.csv"
+all="config/all.csv"
 tag=pd.read_csv(tag,",",dtype=object,header=None).values.tolist()  #无标题
 all=pd.read_csv(all,",",dtype=object,header=None).values.tolist()  #无标题
 other=pd.read_csv("config/test1.csv",",",dtype=object,header=None,usecols=[0]).values.tolist()  #无标题
@@ -15,5 +15,5 @@ for i in all:
     
 print(1)
 
-pd.DataFrame(tag).to_csv("config/final.csv",index=False,header=False,encoding="utf_8_sig")
+pd.DataFrame(tag).to_csv("config/final1.csv",index=False,header=False,encoding="utf_8_sig")
 

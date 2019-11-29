@@ -5,7 +5,7 @@ a=a[0].split(",")
 
 sql=""
 for name in a:
-    single="union(select '{}',count(*) from {} where tag_names is not null)\n".format(name,name)
+    single="union(select '{}',count(1) from {})\n".format(name,name)
     sql=sql+single
 
 print(sql)
