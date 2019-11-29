@@ -6,7 +6,7 @@ durl="config\dianping_category_to_tag.csv"
 wayz="config\gd_category_to_tag - 副本.csv"
 gd_data=pd.read_csv(url,",",header=0,usecols=[5,4],converters={"wayz":str,"tag":str},names=["tag","wayz"])[["wayz","tag"]]
 dp_data=pd.read_csv(durl,",",header=0,usecols=[10,6,7],names=["tag1","tag2","wayz"],converters={"wayz":str,"tag1":str,"tag2":str})[["wayz","tag1","tag2"]]
-a=pd.read_csv(wayz,",",dtype=object,header=0,usecols=[2]).values.tolist()  #无标题
+a=pd.read_csv(wayz,",",header=0,usecols=[2],converters={i: str for i in range(0, 100)}).values.tolist()  #无标题
 
 gd_data["wayz"]=gd_data["wayz"].map(lambda x:x[0:3])
 dp_data["wayz"]=dp_data["wayz"].map(lambda x:x[0:3])

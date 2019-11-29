@@ -37,6 +37,6 @@ for i in range(1,len(all)-20):
             all[i][rep_col]="0"
     
 final="config/final.csv"
-pd.DataFrame(all).to_csv(final,index=False,header=None,encoding="utf_8_sig")
+pd.DataFrame(all).drop(mark_col,axis=1).to_csv(final,index=False,header=None,encoding="utf_8_sig")
 
 
