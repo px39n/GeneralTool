@@ -4,7 +4,7 @@ import pandas as pd
 from PyQt5 import QtWidgets,QtMultimedia,QtCore
 from PyQt5.QtCore import pyqtSignal
 from xml.etree.ElementTree import ElementTree, Element
-
+import os
 class Example(QtWidgets.QWidget):
     voice_signal = pyqtSignal()
     trans_signal = pyqtSignal()
@@ -32,7 +32,7 @@ class Example(QtWidgets.QWidget):
         self.setLayout(vbl)
         self.show()
     def trans_show(self,btn):
-        btn.setText(a[self.count][3])
+        btn.setText(str(a[self.count][0])+a[self.count][3])
     def keyPressEvent(self, event):
         
         if (event.key() == QtCore.Qt.Key_Alt):
@@ -46,14 +46,14 @@ class Example(QtWidgets.QWidget):
     def word_check(self,edit,player,btn):
         word=a[self.count][0]
         if edit.text()==word:
-            btn.setText("right")
+            btn.setText(str(a[self.count][0])+"\n"+a[self.count][3])
             a[self.count][2]=a[self.count][2]+1
             self.count=self.count+1
             content = QtMultimedia.QMediaContent(QtCore.QUrl("http://dict.youdao.com/dictvoice?type=1&audio={}".format(a[self.count][0])))
             player.setMedia(content)
             player.play()
         else:
-            btn.setText("wrong")
+            btn.setText(str(a[self.count][0])+"\n"+a[self.count][3])
             a[self.count][1]=a[self.count][1]+1
             content = QtMultimedia.QMediaContent(QtCore.QUrl("http://dict.youdao.com/dictvoice?type=1&audio={}".format(a[self.count][0])))
             player.setMedia(content)
@@ -70,7 +70,7 @@ class Example(QtWidgets.QWidget):
 # 创建垂直布局，并将输入框和按钮都添加到布局中
 def dictmaker():
     import pandas as pd
-    XML_PATH = "File/abc.xml"
+    XML_PATH = "D:\Code\GeneralTool\File/abc.xml"
     tree = ElementTree()
     tree.parse(XML_PATH)
     objs=tree.findall("item")
@@ -81,14 +81,15 @@ def dictmaker():
         if trans:
             trans=trans.replace("\n", "")
         wordl.append([word,0,0,trans])
-    pd.DataFrame(wordl).to_csv("File\word.csv",index=False,header=False,encoding="utf_8_sig")
+    pd.DataFrame(wordl).to_csv("D:\Code\GeneralTool\File\word.csv",index=False,header=False,encoding="utf_8_sig")
 if __name__ == '__main__':
-    url="File\word.csv"
+    url="D:\Code\GeneralTool\File\word.csv"
     a=pd.read_csv(url,",",header=None).values.tolist()
-    a.sort(key=lambda x : x[2]/2-x[1]) 
+    a.sort(key=lambda x : x[2]/2-x[1])
     app = QtWidgets.QApplication(sys.argv)
     ex = Example()
     sys.exit(app.exec_())
     #print(dictmaker())
-     
+
+    # dictmaker()
 
