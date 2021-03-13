@@ -1,0 +1,8 @@
+<LanguageData>
+
+	<TreatedTrait>{0 _labelshort}{1}已成功治疗。</TreatedTrait>
+	<MessageElectionCalledOff>{0}的选举已经取消,因为在投票站的条件。</MessageElectionCalledOff>
+	<MessageElectionCancelled>{0}的选举被取消了因为没有合适的投票站。</MessageElectionCancelled>
+	<MessageFuneralCalledOff>葬礼已经取消,因为条件的殖民地。</MessageFuneralCalledOff>
+
+</LanguageData>
