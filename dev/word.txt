@@ -1,0 +1,141 @@
+﻿egg-plant 茄子
+　　turnip 萝卜
+　　pepper 胡椒
+　　lotus root 莲藕
+　　kale 甘蓝
+　　potherb mustard 雪里红
+　　lettuce 莴苣
+　　bamboo shoots 竹笋
+　　tomato 西红柿
+　　scallion 大葱
+　　amaranth 苋菜
+　　bolt 菜苔
+　　yam 山药
+　　shepherd’s purse 荠菜
+　　water chestnut 荸荠
+　　French bean 扁豆
+　　horse/broad bean 蚕豆
+　　kidney bean 四季豆
+　　bean curd 豆腐
+　　 sponge/towel gourd 南瓜
+　　summer squash 西葫芦
+　　cabbage 卷心菜
+　　green bean sprout 绿豆芽
+　　Chinese cabbage 大白菜
+　　parsley 香菜
+　　asparagus 芦笋
+　　celery 芹菜
+　　cauliflower 花菜
+　　cress 水芹菜
+　　spinach 菠菜
+　　water spinach 空心菜
+　　carrot 胡萝卜
+　　fresh soyabean 毛豆
+　　soyabean sprout 黄豆芽
+　　Soyabean 黄豆
+　　dried lily 金针菜
+　　 pea 豌豆
+　　balsam pear 苦瓜
+　　wax gourd 冬瓜
+　　cowpea 豇豆
+　　water oat 茭白
+　　taro 芋头
+　　fennel 茴香
+　　fungus 木耳
+　　leek 韭菜
+　　hotbed chives 韭黄
+　　quail egg 鹌鹑蛋
+　　preserved egg 松花蛋
+　　yolk 蛋黄
+　　duck 鸭子
+　　duck’s web 鸭掌
+　　giblets 鸡（鸭）杂
+　　gizzard 鸡（鸭）胗
+　　pigeon 鸽
+　　goose 鹅
+　　pheasant 野鸡
+　　grouse 松鸡
+　　turtledove 斑鸠
+　　mallard 野鸭
+　　quail 鹌鹑
+　　frog legs 田鸡腿
+　　mussels 淡菜
+　　laver 紫菜
+　　algae 苔菜
+　　vermicelli 粉丝
+　　wheat gluten 面筋
+　　bean curd 豆腐
+　　pickled bean curd 豆腐乳
+　　bean curd sheets 千张
+　　corn flakes 玉蜀黍片
+　　prawn 对虾
+　　scamp 大虾
+　　lobster 龙虾
+　　kidney 腰子
+　　liver 肝
+　　tripe 肚，内脏
+　　tongue 舌
+　　minced meat 碎肉，肉糜
+　　shredded meat 肉丝
+　　fillet 鱼片，里脊
+　　mutton 羊肉
+　　lamb 羔羊肉
+　　baby chicken 童子鸡
+　　hen 母鸡
+　　cock 公鸡
+　　turkey 火鸡
+　　shrimp 河虾，小虾
+　　dried shrimp 虾米
+　　shrimp shelled 虾仁
+　　fish roe 鱼子
+　　pomfret 鲳鱼
+　　mackerel 鲭鱼
+　　 dace 鲮鱼
+　　squid 鱿鱼
+　　carp 鲤鱼
+　　silver carp 白鲢
+　　crucian carp 鲫鱼
+　　black carp 青鱼
+　　salmon 马哈鱼，鲑鱼
+　　shark 鲨鱼
+　　shark’s fin 鱼翅
+　　eel 鳝鱼
+　　marine eel 海鳗
+　　tuna 金枪鱼
+　　pike 梭子鱼
+　　blunt-snout 武昌鱼
+　　sturgeon 鲟鱼
+　　trout 鳟鱼
+　　loach 泥鳅
+　　turtle 甲鱼
+　　abalone 鲍鱼
+　　crab 蟹
+　　river crab 河蟹
+　　sea crab 海蟹
+　　clam 文蛤
+　　oyster 牡蛎
+　　snailfish 剥皮鱼
+　　cod 鳕鱼
+　　octopus 章鱼
+　　sea weed 海带
+　　mudsnail 田螺
+　　sardine 沙丁鱼，鲱鱼
+　　cuttlefish 墨鱼
+　　soybean paste 豆瓣酱
+　　aniseed 茴香子
+　　shirmp sauce 虾酱
+　　chilli 干辣椒
+　　chilli sauce 辣椒酱
+　　sweet borwn sauce 甜面酱
+　　tomato paste 西红柿酱
+　　cassia 桂花
+　　pungent sauce 辣酱油
+　　honey 蜂蜜
+　　spice 香料
+　　curry 咖喱
+　　pepper 胡椒
+　　mustard 芥末
+　　wild pepper 花椒
+　　gourmet powder 味精
+　　mint 薄荷
+　　chinnamon 桂皮
